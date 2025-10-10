@@ -1,1 +1,10 @@
-Hello Prajush 
+pipeline {
+    agent any
+    stages {
+        stage('Greeting') {
+            steps {
+                echo 'Hello Prajush'
+            }
+        }
+    }
+}
